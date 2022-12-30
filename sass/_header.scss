@@ -1,0 +1,32 @@
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+.mobile-menu {
+  display: flex;
+}
+
+.logo {
+  fill: #ffffff;
+}
+
+.navigation {
+  display: none;
+}
+
+.link {
+  text-decoration: var(---link-decoration);
+}
+
+.contacts-item {
+  display: none;
+}
+
+.contacts-item-btn {
+  display: none;
+}
+
+.btn-mob {
+  fill: #ffffff;
+}
