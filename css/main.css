@@ -22,6 +22,7 @@ ul {
 img {
   display: block;
   height: auto;
+  width: 100%;
 }
 
 .container {
@@ -410,6 +411,13 @@ body {
   background: #f7f7f7;
   padding-top: 84px;
   padding-bottom: 84px;
+}
+
+.masters-network {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 
 .mobile-menu {
