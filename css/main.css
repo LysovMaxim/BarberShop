@@ -406,6 +406,12 @@ body {
   width: 418px;
 }
 
+.masters {
+  background: #f7f7f7;
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
 .mobile-menu {
   display: flex;
   align-items: center;
