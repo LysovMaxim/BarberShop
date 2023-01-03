@@ -49,6 +49,7 @@ img {
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #303030;
 }
 
 .header {
@@ -322,8 +323,6 @@ body {
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
-  width: 418px;
-  margin: 0 auto;
 }
 
 .benefits-items:nth-child(odd) {
@@ -335,16 +334,18 @@ body {
 }
 
 .benefits-items {
-  width: 194px;
+  max-width: 194px;
   height: 133px;
   padding: 20px 36px;
   background: #f7f7f7;
   text-align: center;
+  flex-basis: calc((100% - 30px) / 2);
+  width: 100%;
 }
 
 .benefits-number {
   font-weight: 700;
-  font-size: 42px;
+  font-size: 25px;
   line-height: 1.3571428571;
   letter-spacing: 0.05em;
   color: #303030;
@@ -352,13 +353,13 @@ body {
 
 .benefits-plus {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.375;
   color: #ff6c00;
   margin-left: 2px;
   display: inline-block;
   vertical-align: top;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .benefits-text {
@@ -404,7 +405,7 @@ body {
   letter-spacing: 0.02em;
   color: #555555;
   margin-bottom: 44px;
-  width: 418px;
+  max-width: 418px;
 }
 
 .masters {
@@ -413,11 +414,71 @@ body {
   padding-bottom: 84px;
 }
 
+.masters-masters {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.3636363636;
+  text-transform: uppercase;
+  color: #303030;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.masters-title {
+  font-family: "Raleway";
+  font-size: 42px;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05em;
+  margin-bottom: 44px;
+}
+
+.masters-items:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+.masters-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3888888889;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 30px;
+}
+
+.masters-job {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3571428571;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+  margin-top: 8px;
+}
+
+.masters-networks {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.masters-masters::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+  margin-right: 20px;
+}
+
 .masters-network {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
+}
+
+.masters-network:not(:last-child) {
+  margin-right: 10px;
 }
 
 .mobile-menu {

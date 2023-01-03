@@ -11,8 +11,9 @@
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
-  width: 418px;
-  margin: 0 auto;
+  // width: 418px;
+  // gap: 30px;
+  // margin: 0 auto;
 }
 
 .benefits-items:nth-child(odd) {
@@ -24,16 +25,18 @@
 }
 
 .benefits-items {
-  width: 194px;
+  max-width: 194px;
   height: 133px;
   padding: 20px 36px;
   background: #f7f7f7;
   text-align: center;
+  flex-basis: calc((100% - 30px) / 2);
+  width: 100%;
 }
 
 .benefits-number {
   font-weight: 700;
-  font-size: 42px;
+  font-size: 25px;
   line-height: calc(57 / 42);
   letter-spacing: 0.05em;
   color: #303030;
@@ -41,13 +44,13 @@
 
 .benefits-plus {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 13px;
   line-height: calc(22 / 16);
   color: #ff6c00;
   margin-left: 2px;
   display: inline-block;
   vertical-align: top;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .benefits-text {
@@ -93,5 +96,5 @@
   letter-spacing: 0.02em;
   color: #555555;
   margin-bottom: 44px;
-  width: 418px;
+  max-width: 418px;
 }
