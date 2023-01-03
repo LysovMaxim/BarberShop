@@ -15,6 +15,14 @@
   margin-bottom: 20px;
 }
 
+.masters-masters::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+  margin-right: 20px;
+}
+
 .masters-title {
   font-family: "Raleway";
   font-size: 42px;
@@ -52,21 +60,16 @@
   margin-top: 30px;
 }
 
-.masters-masters::before {
-  content: "";
-  width: 60px;
-  height: 1px;
-  background-color: #303030;
-  margin-right: 20px;
+.masters-network:not(:last-child) {
+  margin-right: 10px;
 }
 
-.masters-network {
+.masters-soc {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
-}
-
-.masters-network:not(:last-child) {
-  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
