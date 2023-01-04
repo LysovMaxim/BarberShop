@@ -1,0 +1,91 @@
+.booking {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background: #191c26;
+}
+
+.booking-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 44px;
+}
+
+.booking-btn {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: inherit;
+  padding: 12px 60px;
+  border-radius: 25px;
+  border: 1px solid #ff6c00;
+  display: block;
+  margin: 0 auto;
+}
+
+.online-wrap {
+  position: relative;
+  margin-bottom: 44px;
+}
+
+.online-input {
+  width: 100%;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.online-input:focus,
+.online-input:not(:placeholder-shown) {
+  border-color: #ffffff;
+}
+
+.online-item {
+  outline: transparent;
+  color: #ffffff;
+}
+
+.online-item:focus + .online-lable,
+.online-item:not(:placeholder-shown) + .online-lable {
+  transform: translateY(-100%);
+  color: #ffffff;
+}
+
+.online-text {
+  width: 100%;
+  height: 76px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  size: none;
+  resize: none;
+}
+
+.online-text:focus,
+.online-text:not(:placeholder-shown) {
+  border-color: #ffffff;
+}
+
+.online-lable {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
