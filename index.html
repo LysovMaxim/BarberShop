@@ -290,12 +290,12 @@
                 <form class="booking-form">
                     <div class="online-wrap">
                         <input class="online-input online-item" type="text" name="online-name" id="online-name"
-                            placeholder=" ">
+                            placeholder=" " required minlength="3">
                         <label class="online-lable" for="online-name">Name*</label>
                     </div>
                     <div class="online-wrap">
                         <input class="online-input online-item" type="tel" name="online-tel" id="online-tel"
-                            placeholder=" ">
+                            placeholder=" " required minlength="6">
                         <label class="online-lable" for="online-tel">Phone*</label>
                     </div>
                     <div class="online-wrap">
@@ -307,24 +307,43 @@
                 </form>
             </div>
         </section>
-        <!-- <section>
-            <h2>Contacts</h2>
-            <address>
-                <a href="https://goo.gl/maps/i5uFa2pGPhFJ3XRJ8" target="_blank">st. Vasilkovaya, 7A
-                    Kiev, 08132</a>
-            </address>
-            <ul>
-                <li>
-                    <a href="tel:+380441111111">+38 044 111 11 11</a>
-                </li>
-                <li>
-                    <a href="mailto:barbershop@email.com">barbershop@email.com</a>
-                </li>
-            </ul>
-            <span>Working hours</span>
-            <p>Every day from 9:00 to 22:00</p>
+        <section class="contact">
+            <div class="container">
+                <h2 class="contact-title">Contacts</h2>
+                <address class="contact-address">
+                    <a class="contact-address-link" href="https://goo.gl/maps/i5uFa2pGPhFJ3XRJ8" target="_blank">
+                        <svg class="contact-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-map-pin"></use>
+                        </svg> st.
+                        Vasilkovaya, 7A
+                        Kiev, 08132</a>
+                </address>
+                <ul class="contact-list">
+                    <li class="contact-mob">
+                        <a class="contact-item-tel" href="tel:+380441111111">
+                            <svg class="contact-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg> +38 044 111 11 11</a>
+                    </li>
+                    <li class="contact-mailto">
+                        <a class="contact-item-mail" href="mailto:barbershop@email.com">
+                            <svg class="contact-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-mail"></use>
+                            </svg> barbershop@email.com</a>
+                    </li>
+                </ul>
+                <span class="contact-hours">Working hours</span>
+                <p class="contact-watch">Every day from 9:00 to 22:00</p>
+            </div>
         </section>
-    </footer> -->
+        <!-- <section>
+            <ul>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Youtube</a></li>
+            </ul>
+            <span>Copyright 2020</span>
+        </section> -->
+    </footer>
 </body>
 
 </html>

@@ -89,3 +89,98 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+// --------------------Contacts-------------------
+
+.contact {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-image: url(../images/fon-footer.png);
+  background-color: #191c26;
+}
+
+.contact-title {
+  font-family: "Raleway";
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.contact-address {
+  margin-bottom: 20px;
+}
+
+.contact-address-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  margin-right: 16px;
+}
+
+.contact-icon {
+  text-align: center;
+}
+
+.contact-mob {
+  margin-bottom: 20px;
+}
+
+.contact-item-tel {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.contact-mailto {
+  margin-bottom: 44px;
+}
+
+.contact-item-mail {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  display: flex;
+  align-items: center;
+}
+
+.contact-hours {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-hours::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background: rgba(157, 164, 189, 0.4);
+  margin-right: 20px;
+}
+
+.contact-watch {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
