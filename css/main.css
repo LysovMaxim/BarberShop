@@ -648,6 +648,9 @@ body {
   padding-bottom: 84px;
   background-image: url(../images/fon-footer.png);
   background-color: #191c26;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contact-title {
@@ -735,6 +738,48 @@ body {
   line-height: 30px;
   letter-spacing: 0.02em;
   color: #9da4bd;
+}
+
+.social {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.social-items {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.social-media {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.3636363636;
+  letter-spacing: 0.2em;
+  color: #303030;
+  display: flex;
+  align-items: center;
+}
+
+.instagram:before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background: #303030;
+  margin-right: 40px;
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .mobile-menu {
