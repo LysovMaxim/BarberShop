@@ -13,9 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
-
-
-
 </head>
 
 <body>
@@ -50,11 +47,40 @@
                     <button class="contacts-item-btn" type="button">Online-bookin</button>
                 </li>
             </ul>
-            <button class="btn-mob" type="button">
+            <button class="btn-mob" type="button" data-menu-open>
                 <svg width="24px" height="16px">
                     <use href="./images/icons.svg#icon-mob-menu"></use>
                 </svg>
             </button>
+        </div>
+        <div class="mob-menu is-hidden" data-menu>
+            <div class="container">
+                <div>
+                    <button class="mob-btn-close" type="button" data-menu-close>
+                        <svg class="mob-close" width="18px" height="18px">
+                            <use href="./images/icons.svg#icon-close-mob"></use>
+                        </svg>
+                    </button>
+                    <ul class="mob-list">
+                        <li class="mob-items"><a class="mob-link" href="#">About</a></li>
+                        <li class="mob-items"><a class="mob-link" href="#">Services and prices</a></li>
+                        <li class="mob-items"><a class="mob-link" href="#">Barbers</a></li>
+                        <li class="mob-items"><a class="mob-link" href="#">Contacts</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="mob-contacts">
+                        <li class="mob-tel"><a class="mob-tel-contact" href="tel:+380441111111">+38 044 111 11 11</a>
+                        </li>
+                        <li class="mob-btn-bookin"><button class="mob-btn-online" type="button">Online-bookin</button>
+                        </li>
+                    </ul>
+                    <ul class="mob-social">
+                        <li class="mob-social-media"><a class="mob-instagram" href="#">Instagram</a></li>
+                        <li class="mob-social-media"><a class="mob-youtube" href="#">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -193,22 +219,22 @@
                         <h3 class="masters-name">John Smith</h3>
                         <p class="masters-job">Extreme Barber</p>
                         <ul class="masters-networks">
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-instagram"></use>
                                     </svg>
                                 </a></li>
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-twitter"></use>
                                     </svg>
                                 </a></li>
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-facebook"></use>
                                     </svg>
                                 </a></li>
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-linkedin"></use>
                                     </svg>
@@ -219,22 +245,22 @@
                         <h3 class="masters-name">Michele Doe</h3>
                         <p class="masters-job">Extreme Barber</p>
                         <ul class="masters-networks">
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-instagram"></use>
                                     </svg>
                                 </a></li>
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-twitter"></use>
                                     </svg>
                                 </a></li>
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-facebook"></use>
                                     </svg>
                                 </a></li>
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-linkedin"></use>
                                     </svg>
@@ -245,22 +271,22 @@
                         <h3 class="masters-name">Alan Black</h3>
                         <p class="masters-job">Extreme Barber</p>
                         <ul class="masters-networks">
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-instagram"></use>
                                     </svg>
                                 </a></li>
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-twitter"></use>
                                     </svg>
                                 </a></li>
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-facebook"></use>
                                     </svg>
                                 </a></li>
-                            <li class="masters-network"><a class="masters-soc" href="">
+                            <li class="masters-network"><a class="masters-soc" href="#">
                                     <svg class="masters-icon" width="20" height="20">
                                         <use href="./images/icons.svg#icon-linkedin"></use>
                                     </svg>
@@ -339,8 +365,8 @@
         <section class="social">
             <div class="container">
                 <ul class="social-items">
-                    <li class="social-item"><a class="social-media instagram" href="">Instagram</a></li>
-                    <li class="social-item"><a class="social-media" href="">Youtube</a></li>
+                    <li class="social-item"><a class="social-media instagram" href="#">Instagram</a></li>
+                    <li class="social-item"><a class="social-media" href="#">Youtube</a></li>
                 </ul>
                 <span class="copyright">
                     <svg width="12px" height="12px">
@@ -349,6 +375,7 @@
             </div>
         </section>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
