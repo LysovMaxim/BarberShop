@@ -142,6 +142,8 @@ body {
 }
 
 .mob-btn-close {
+  width: 40px;
+  height: 40px;
   display: block;
   margin-left: auto;
   margin-bottom: 30px;
@@ -206,6 +208,7 @@ body {
   border-radius: 25px;
   border: 1px solid #ff6c00;
   margin-bottom: 64px;
+  color: #303030;
 }
 
 .mob-instagram {
@@ -240,6 +243,12 @@ body {
   color: #303030;
   text-decoration: none;
   padding-left: 100px;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .hero {
